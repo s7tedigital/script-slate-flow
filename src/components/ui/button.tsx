@@ -15,6 +15,9 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        cinema: "bg-cinema-gold text-background hover:bg-cinema-gold/90 shadow-lg hover:shadow-cinema-glow transition-all duration-300",
+        "cinema-outline": "border border-cinema-gold bg-transparent text-cinema-gold hover:bg-cinema-gold hover:text-background transition-all duration-300",
+        "cinema-ghost": "text-cinema-gold hover:bg-cinema-gold/10 hover:text-cinema-gold transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
